@@ -48,7 +48,6 @@ public class ChatClient extends AbstractClient {
 	public ChatClient(String host, int port, ChatIF clientUI) throws IOException {
 		super(host, port); // Call the superclass constructor
 		this.clientUI = clientUI;
-		this.clientUI = clientUI;
 		// openConnection();
 	}
 
@@ -67,6 +66,7 @@ public class ChatClient extends AbstractClient {
 		//System.out.println((String) m.getObject());
 		if (m.getMessageType().equals(MessageType.login)) {
 			u = (User) m.getObject();
+			//u = (User) m.getObject(); 	
 			
 		}
 			
