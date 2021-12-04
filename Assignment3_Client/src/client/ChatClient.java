@@ -66,7 +66,6 @@ public class ChatClient extends AbstractClient {
 		//System.out.println((String) m.getObject());
 		if (m.getMessageType().equals(MessageType.login)) {
 			u = (User) m.getObject();
-			ana abo khaled
 		}
 			
 
