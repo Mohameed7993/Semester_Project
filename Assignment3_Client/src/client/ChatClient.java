@@ -48,6 +48,7 @@ public class ChatClient extends AbstractClient {
 	public ChatClient(String host, int port, ChatIF clientUI) throws IOException {
 		super(host, port); // Call the superclass constructor
 		this.clientUI = clientUI;
+		this.clientUI = clientUI;
 		// openConnection();
 	}
 
